@@ -5,9 +5,9 @@
 */
 
 /* Basic */
-
+ 
 	body {
-		min-width: 320px;
+		 
 	}
 
 	body, input, select, textarea {
@@ -21,10 +21,7 @@
 	@-ms-keyframes bg { 0% { -moz-transform: translate3d(0,0,0); -webkit-transform: translate3d(0,0,0); -o-transform: translate3d(0,0,0); -ms-transform: translate3d(0,0,0); transform: translate3d(0,0,0); } 100% { -moz-transform: translate3d(-500px,0,0); -webkit-transform: translate3d(-500px,0,0); -o-transform: translate3d(-500px,0,0); -ms-transform: translate3d(-500px,0,0); transform: translate3d(-500px,0,0); } }
 	@keyframes bg { 0% { -moz-transform: translate3d(0,0,0); -webkit-transform: translate3d(0,0,0); -o-transform: translate3d(0,0,0); -ms-transform: translate3d(0,0,0); transform: translate3d(0,0,0); } 100% { -moz-transform: translate3d(-500px,0,0); -webkit-transform: translate3d(-500px,0,0); -o-transform: translate3d(-500px,0,0); -ms-transform: translate3d(-500px,0,0); transform: translate3d(-500px,0,0); } }
 
-	#bg {
-		background-size: 500px auto;
-		width: 1500px;
-	}
+	
 
 /* Header */
 
@@ -47,3 +44,14 @@
 		#header nav a:active {
 			font-size: 1em;
 		}
+@media (max-width: 930px) { /* это будет показано при разрешении монитора до 930 пикселей */
+#bg {
+background-size: cover;
+}
+}
+
+@media (max-width: 1024px) { /* это будет показано при разрешении монитора до 930 пикселей */
+#bg {
+background-size: cover;
+}
+}
